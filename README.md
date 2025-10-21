@@ -3,19 +3,25 @@ CS-210: Programming Languages
 Reflection – Module Eight Journal
 
 Summary
+
 The Corner Grocer project was designed to help a small grocery store analyze the frequency of items purchased throughout the day. The program reads data from an input file containing a list of grocery items, counts how many times each item appears, and then displays the results through a simple text-based menu. The user can view the frequency of a single item, see a full list of items with their counts, or generate a histogram that visually represents item frequency. This project solves the problem of tracking product sales trends efficiently and demonstrates core C++ programming principles such as file I/O, data structures, and menu-driven user interfaces.
 
 What I Did Well
+
 I did particularly well in structuring the code for clarity and maintainability. Each logical section of the program—reading data, counting frequencies, and displaying results—was separated into its own function, which made the program easier to read and debug. I also used a C++ map container to efficiently store and retrieve item frequencies, which improved performance when handling large datasets. My code comments and consistent naming conventions made the program clean and easy to follow for future readers or collaborators.
 
 Areas for Improvement
+
 My program already includes several forms of input validation and user feedback, such as checking for missing files, rejecting invalid menu choices, and notifying the user when an item is not found in the dataset. These features make the program more reliable and user-friendly. However, there are still opportunities to refine these elements to create an even smoother user experience. Another area for improvement involves handling multi-word items, such as “green beans” or “apple juice.” Currently, items in the input file are expected to be single words. By modifying the program to parse and count multi-word items as a single entry correctly, I could make the program more flexible and realistic for real-world grocery data. Implementing this change would involve adjusting how the program reads and tokenizes lines from the input file. Additionally, I could track invalid attempts and display helpful suggestions, such as reminding the user that item names are case-insensitive or showing the closest matching item using string comparison. These refinements wouldn’t change the core functionality but would make the program more intuitive and professional, aligning it with real-world software usability standards.
 
 Challenges and How I Overcame Them
+
 The most challenging part of this project was correctly handling file input and ensuring that all item frequencies were counted accurately without duplicates or missed entries. At first, I encountered issues with reading the file line by line and parsing the data properly. I overcame this challenge by breaking the problem down into smaller steps—first confirming that the file was opened correctly, then verifying that each line was being read, and finally inserting each item into the map structure. Using test files and print statements helped me confirm the logic worked before finalizing the program.
 
 Transferable Skills
+
 This project strengthened several skills that will be valuable in future coursework and professional development. These include the use of data structures (maps, vectors), modular programming techniques, and file handling in C++. It also improved my problem-solving and debugging abilities—skills that are highly transferable to other languages like Python and Java. Additionally, learning to structure code for readability and maintenance is a skill that applies to any programming environment or software development team.
 
 Code Maintainability and Adaptability
+
 To make my code maintainable and adaptable, I followed consistent naming conventions, added comments for each function, and avoided hard-coding values. By using functions for repetitive tasks such as displaying menus and reading files, I made it easier to expand or modify the program in the future. For example, if the grocery store wanted to track prices or time-of-day sales, these features could be added with minimal restructuring. The modular design ensures that future updates can be made efficiently without affecting the entire codebase.
