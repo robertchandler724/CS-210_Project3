@@ -20,7 +20,7 @@ The most challenging part of this project was making sure the program read the f
 
 Transferable Skills
 
-This project helped me strengthen several technical and problem-solving skills that will be useful in both future courses and professional work. I gained hands-on experience with data structures (like maps and vectors), modular program design, and file handling in C++. I also got better at debugging and breaking down complex problems into manageable parts. These skills are directly transferable to other programming languages such as Python or Java, and they’re essential for writing clean, efficient, and maintainable code in any environment.
+This project helped me strengthen several technical and problem-solving skills that will be useful in both future courses and professional work. I gained hands-on experience with data structures like maps and vectors, modular program design, and file handling in C++. I also got better at debugging and breaking down complex problems into manageable parts. These skills are directly transferable to other programming languages such as Python or Java, and they’re essential for writing clean, efficient, and maintainable code in any environment.
 
 Code Maintainability and Adaptability
 
